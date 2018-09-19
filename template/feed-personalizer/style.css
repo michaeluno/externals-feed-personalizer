@@ -1,0 +1,167 @@
+/*
+    Template Name:  Feed Personalizer
+    Template URI:   http://en.michaeluno.jp
+    Author:         Michael Uno
+    Author URI:     http://en.michaeluno.jp
+    Description:    Displays feeds.
+    Version:        1.0.0
+    License:        GNU General Public License v2 or later
+    License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+    Tags:           default
+    Text Domain:    externals
+*/
+
+/**
+ * Item Container
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-item {
+    margin-bottom: 2em;
+    width: auto;
+}
+/**
+ * Item Title externals-feed-personalizer-title
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-head .externals-feed-personalizer-title {
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+}
+.externals-feed-personalizer-container .externals-feed-personalizer-head .externals-feed-personalizer-actions {
+    display: inline-block;
+    width: 5%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    vertical-align: top;
+}
+/**
+  Head
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-head {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1em;
+}
+/**
+ Side
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-side {
+    display: inline-block;
+    /*
+    width: 20%; */
+    /* width: auto; */
+    max-width: 20%;
+    min-width: 20%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        padding-right: 1%;
+}
+.externals-feed-personalizer-container .externals-feed-personalizer-actions {
+    margin-bottom: 0.4em;
+}
+/**
+ * Images
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-images {
+}
+.externals-feed-personalizer-container .externals-feed-personalizer-image {
+    /* width: 100%; */
+    text-align: right;    
+}
+.externals-feed-personalizer-container .externals-feed-personalizer-image > img {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    box-shadow: none;
+}
+@media only screen and (max-width: 480px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+    .externals-feed-personalizer-container .externals-feed-personalizer-side {
+        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .externals-feed-personalizer-container .externals-feed-personalizer-image {
+        /* width: auto; */
+        display: inline-block;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        text-align: left;
+    }
+}
+
+/**
+ * Item Meta
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-meta {
+    width: 78%;
+    display: inline-block;
+    margin-bottom: 0.4em;
+}
+.externals-feed-personalizer-container .externals-feed-personalizer-date {
+    margin-right: 1em;
+}
+.externals-feed-personalizer-container .externals-feed-personalizer-author {
+    margin-right: 1em;    
+}
+.externals-feed-personalizer-meta span {
+    display:inline;
+}
+.entry-content .externals-feed-personalizer-meta a {
+    border-bottom: none;
+}
+
+/**
+ * Item Actions
+ */
+
+.externals-feed-personalizer-actions .dashicons {
+    font-size: 1.4em;
+}
+
+/**
+ Body
+ */
+.externals-feed-personalizer-body .externals-feed-personalizer-actions {
+    display: inline-block;
+    width: 20%;
+}
+/**
+ * Item Description
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-body {
+    display: inline-block;
+    /*
+    width: 78%; */
+    /* width: auto; */
+    max-width: 78%;
+    min-width: 78%;
+    border: 0;    
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+@media only screen and (max-width: 480px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+    .externals-feed-personalizer-container .externals-feed-personalizer-body {
+        max-width: 100%;
+    }
+}
+.externals-feed-personalizer-body .dashicons {
+    vertical-align: middle;
+}
+/**
+ * Misc
+ */
+.externals-feed-personalizer-container .externals-feed-personalizer-item blockquote {
+    margin-left: 0;
+}
+
+.text-align-right {
+    text-align: right;
+}
